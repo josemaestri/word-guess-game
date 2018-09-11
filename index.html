@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Beerman</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-1 text-center">Beerman</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- Start/Play -->
+          <button class="btn btn-primary start-game">Start</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Game Body -->
+  <div class="container">
+    <div class="row">
+      <!-- Stats -->
+      <aside class="col-lg-6">
+        <div class="stats">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Score</h2>
+            </div>
+            <div class="col-md-12">
+              <!-- Score -->
+              <strong class="score">0</strong>
+            </div>
+          </div>
+        </div>
+        <!-- end Stats-->
+
+        <!-- Main Body -->
+        <div class="main-play mt-5">
+          <div class="row">
+            <main class="col-md-12">
+              <h2>Type letters to fill in blanks.</h2>
+              <div class="row">
+                <div class="col-12">
+                  <div class="blanks">
+                    <!-- Blanks -->
+                    <h3 class="blank-word"></h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Incorrect Guess -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="incorrect-box mt-3">
+                    <h4>Incorrect Guesses:</h4>
+                    <p class="incorrect-guesses">
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+        <!-- end Main Body -->
+      
+      </aside>
+
+      
+      
+      <!-- Hanged Man -->
+      <aside class="col-lg-6">
+        <div class="guesses">
+          <!-- Guesses Left -->
+          <div class="row">
+            <div class="col-12">
+              <h3>Guesses Left: </h3>
+              <strong class="guesses-left">13</strong>
+            </div>
+          </div>
+          <!-- Man ASCII -->
+          <div class="row">
+            <div class="col-12">
+              <pre class="hanged-man mt-4">
+.============================================.
+||                                          ||
+||                                          ||
+||                ___                       ||
+||              .'   '.                     ||
+||             /       \           oOoOo    ||
+||            |         |       ,==|||||    ||
+||             \       /       _|| |||||    ||
+||              '.___.'    _.-'^|| |||||    ||
+||            __/_______.-'     '==HHHHH    ||
+||       _.-'` /                   """""    ||
+||    .-'     /   oOoOo                     ||
+||    `-._   / ,==|||||                     ||
+||        '-/._|| |||||                     ||
+||         /  ^|| |||||                     ||
+||        /    '==HHHHH                     ||
+||       /________"""""                     ||
+||       `\       `\                        ||
+||         \        `\   /                  ||
+||          \         `\/                   ||
+||          /                               ||
+||         /                                ||
+||        /_____                            ||
+||                                          ||
+||                                          ||
+.============================================'
+              </pre>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script> 
+</body>
+</html>
