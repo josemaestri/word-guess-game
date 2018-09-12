@@ -1,3 +1,19 @@
+body{
+  background: url('https://images8.alphacoders.com/413/thumb-1920-413078.jpg');
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 3px #000;
+}
+pre{
+  color: white;
+  text-shadow: 0 0 3px #000;
+}
+
+.jumbotron{
+  /* background: rgba(233, 236, 239, .4); */
+  background: none;
+}
+
 .blank-word{
   letter-spacing: .5em;
 }

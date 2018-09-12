@@ -92,6 +92,7 @@ var outOfGuesses = function(){
 };
 var handleKeyPress = function(event){
   console.log(event.key.toUpperCase());
+  console.log(word);
   var guess = event.key.toUpperCase();
   if(checkGuess(guess, word)){
     handleCorrectGuess(guess);
